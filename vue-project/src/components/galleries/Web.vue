@@ -4,10 +4,11 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 md:mt-8">
       <div v-for="(image, index) in images" :key="index">
         <div class="relative">
-          <img class="h-full max-w-full" :src="image.src" :alt="image.alt">
+          <a :href="index === 0 ? 'https://www.eksamentrapholt.dk/' : '#'" target="_blank">
+            <img class="h-full max-w-full" :src="image.src" :alt="image.alt">
+          </a>
           <h2 class="text-grey text-left text-2xl">{{ image.title }}</h2>
           <p class="text-grey text-left pr-2 font-light text-pretty">{{ image.description }}</p>
-
         </div>
       </div>
     </div>
