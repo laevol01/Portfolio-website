@@ -13,14 +13,12 @@
   export default {
     methods: {
       downloadPDF() {
-        // Replace the URL with the direct URL to the PDF file
-        window.open('https://erhvervsakademisydvest-my.sharepoint.com/personal/laevol01_easv365_dk/_layouts/15/embed.aspx?UniqueId=ee772934-f5be-4d8f-bb76-7b2c680e1229', '_blank');
+        window.open('https://erhvervsakademisydvest-my.sharepoint.com/personal/laevol01_easv365_dk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Flaevol01%5Feasv365%5Fdk%2FDocuments%2FCV%2Epdf&parent=%2Fpersonal%2Flaevol01%5Feasv365%5Fdk%2FDocuments&ga=1', '_blank');
       }
     }
   }
   </script>
   
   <style scoped>
-  /* Add any additional styling here if needed */
   </style>
   

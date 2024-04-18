@@ -35,7 +35,7 @@ export default {
   computed: {
     mediaGroups() {
       const groups = [];
-      const groupSize = 6; // Adjust this based on your grid layout
+      const groupSize = 6;
       for (let i = 0; i < this.mediaItems.length; i += groupSize) {
         groups.push(this.mediaItems.slice(i, i + groupSize));
       }
