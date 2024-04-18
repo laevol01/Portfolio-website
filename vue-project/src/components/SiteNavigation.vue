@@ -16,7 +16,6 @@
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
               </svg>
             </button>
-            <!-- Dropdown menu -->
             <div v-show="isSubmenuOpen" @click.away="closeSubmenu" id="dropdownNavbar" class="z-10 absolute top-full right-0 mt-2 font-normal bg-secondary divide-y rounded-lg shadow w-44">
               <ul class="py-2 text-sm text-primary" aria-labelledby="dropdownLargeButton">
                 <li>

@@ -29,7 +29,6 @@ export default {
       }
     },
     openLinkedInProfile() {
-      // Function to open LinkedIn profile in a new tab
       window.open("https://www.linkedin.com/in/l%C3%A6rke-engelberg/", "_blank");
     },
   }
@@ -45,25 +44,3 @@ import CardView from "@/components/CardView.vue";
 import Button from "../components/reusable/Button.vue";
 import { ref } from 'vue';
 </script>
-
-
-
-<!-- <template>
-  <main>
-    <div class="illustrationer">
-      <h1>Illustrationer</h1>
-    </div>
-    <Gallery />
-  </main>
-</template>
-
-<script>
-import Gallery from '@/components/galleries/Gallery.vue';
-import { ref } from 'vue';
-
-export default {
-  components: {
-    Gallery
-  }
-};
-</script> -->

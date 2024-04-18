@@ -37,7 +37,6 @@ export default {
       }
     },
     openLinkedInProfile() {
-      // Function to open LinkedIn profile in a new tab
       window.open("https://www.linkedin.com/in/l%C3%A6rke-engelberg/", "_blank");
     },
   }

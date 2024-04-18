@@ -19,13 +19,12 @@
       progress: {
         type: Number,
         required: true,
-        validator: value => value >= 0 && value <= 100 // Ensure progress value is between 0 and 100
+        validator: value => value >= 0 && value <= 100
       }
     }
   };
   </script>
   
   <style scoped>
-  /* Add any custom styles here */
   </style>
   
